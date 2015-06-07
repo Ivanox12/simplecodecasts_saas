@@ -8,6 +8,7 @@ gem 'sqlite3', group: [:development, :test]
 # Use Postrgesql as the database for production
 
 gem 'bootstrap-sass' , '3.3.1'
+# Use bootstrap for style the website
 
 group :production do
   gem 'pg'
