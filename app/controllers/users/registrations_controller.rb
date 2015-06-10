@@ -5,7 +5,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
       if params[:plans]
         resource.plan_id = params[:plan]
         if resources.plan_id == 2
-          resources.save_with_payment
+          resource.save_with_payment
         else
           resource.save
         end
