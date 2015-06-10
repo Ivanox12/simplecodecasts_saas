@@ -8,8 +8,8 @@ class Users::RegistrationsController < Devise::RegistrationsController
           resources.save_with_payment
         else
           resource.save
-  end
-  
-  
-  
+        end
+      end
+    end
+  end 
 end
