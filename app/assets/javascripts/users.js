@@ -5,10 +5,10 @@ $(document).ready(function(){
     event.preventDefault();
     $('input[type=submit]').prop('disabled', true);
     var error = false;
-    var ccNum = $('#card_number').vall(),
-        cvcNum =$('#card_code').vall(),
-        expMonth = $('#card_month').vall(),
-        expYear =$('#card_year').vall();
+    var ccNum = $('#card_number').val(),
+        cvcNum =$('#card_code').val(),
+        expMonth = $('#card_month').val(),
+        expYear =$('#card_year').val();
     
     if (!error){
       //Get the stripe token:
