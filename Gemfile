@@ -44,6 +44,8 @@ gem 'stripe', '1.16.1'
 gem 'figaro','1.0.0'
 #Use paperclip to upload images
 gem 'paperclip','4.2.1'
+#Use Autoprefixer to add prefix to CSS files
+gem 'autoprefixer-rails','5.2.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -1,5 +1,7 @@
 .round-avatar{
   border-radius: 50%;
+  height: 128px;
+  width: 128px;
 }
 
 
@@ -30,4 +32,9 @@
 .well.contact-info{
   background-color: #5bc0de;
   border-color: #46b8da;
+}
+
+.well.white-bg{
+  
+  background-color: white;
 }
